@@ -19,3 +19,8 @@ yas = input("yasini gir: ")
 
 print("Merhaba", isim)
 print("sen", yas, "yasindasin")
+
+print(type(isim))
+print(type(yas))
+print(type(boy))
+print(type(ogrenci))
