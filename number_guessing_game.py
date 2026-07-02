@@ -1,5 +1,5 @@
 import random
-gizli_sayi = random.randint(1,20)
+gizli_sayi = random.randint(1, 20)
 tahmin_hakki = 5
 
 print("Sayi Tahmin Oyununa Hosgeldiinnn!")
@@ -9,7 +9,7 @@ print("5 tahmin hakkin var. Basarilarr")
 deneme_sayisi = 0
 
 while tahmin_hakki > 0:
-    tahmin = int(input("Tahminin "))
+    tahmin = int(input("Tahminin: "))
   
     if tahmin < 1 or tahmin > 20:
         print("Lutfen 1 ile 20 arasinda bir sayi gir.")
