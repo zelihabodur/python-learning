@@ -50,6 +50,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `student_list.py`         | Öğrenci listesi uygulaması            |
 | `shopping_list.py`        | Alışveriş listesi uygulaması          |
 | `number_guessing_game.py` | Sayı tahmin oyunu                     |
+| `calculator_v2.py` | Hata yönetimi olan gelişmiş hesap makinesi   |
 
 ## Number Guessing Game
 
