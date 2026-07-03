@@ -76,6 +76,7 @@ Bu mini oyunda bilgisayar 1 ile 20 arasında rastgele bir sayı tutar. Kullanıc
 * Kullanıcının kalan hakkını gösterir.
 * 1-20 aralığı dışındaki girişleri kontrol eder.
 * Kullanıcının kaç denemede bildiğini gösterir.
+* Hatalı girişler `try-except` ile kontrol edilir.
 
 ## Hedefim
 
