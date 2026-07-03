@@ -51,6 +51,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `shopping_list.py`        | Alışveriş listesi uygulaması          |
 | `number_guessing_game.py` | Sayı tahmin oyunu                     |
 | `calculator_v2.py` | Hata yönetimi olan gelişmiş hesap makinesi   |
+| `calculator_v3.py` | Menü sistemi olan, sürekli çalışan ve hata yönetimi bulunan hesap makinesi |
 
 ## Number Guessing Game
 
