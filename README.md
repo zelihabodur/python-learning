@@ -53,6 +53,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `calculator_v2.py` | Hata yönetimi olan gelişmiş hesap makinesi   |
 | `calculator_v3.py` | Menü sistemi olan, sürekli çalışan ve hata yönetimi bulunan hesap makinesi |
 | `calculator_v4.py` | Fonksiyonlarla düzenlenmiş, menülü ve hata yönetimi olan hesap makinesi |
+| `rock_paper_scissors.py` | Fonksiyon kullanılan taş kağıt makas oyunu |
 
 ## Number Guessing Game
 
