@@ -55,6 +55,10 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `calculator_v4.py` | Fonksiyonlarla düzenlenmiş, menülü ve hata yönetimi olan hesap makinesi |
 | `rock_paper_scissors.py` | Fonksiyon kullanılan taş kağıt makas oyunu |
 | `rock_paper_scissors_v2.py` | Skor sistemi, sürekli oyun döngüsü ve çıkış seçeneği olan taş kağıt makas oyunu |
+| `dictionary_examples.py` | Dictionary kullanımını gösteren temel örnekler |
+| `student_card.py` | Kullanıcıdan alınan öğrenci bilgilerini dictionary içinde saklayan öğrenci kartı uygulaması |
+| `student_registration_v1.py` | Birden fazla öğrenciyi liste içinde dictionary olarak saklayan öğrenci kayıt sistemi |
+| `student_registration_v2.py` | Menü sistemi, öğrenci ekleme, öğrenci listeleme ve hata kontrolü olan öğrenci kayıt sistemi |
 ## Number Guessing Game
 
 Bu mini oyunda bilgisayar 1 ile 20 arasında rastgele bir sayı tutar. Kullanıcının 5 tahmin hakkı vardır. Kullanıcının tahminine göre program daha büyük veya daha küçük bir sayı denemesini söyler.
