@@ -59,6 +59,8 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `student_card.py` | Kullanıcıdan alınan öğrenci bilgilerini dictionary içinde saklayan öğrenci kartı uygulaması |
 | `student_registration_v1.py` | Birden fazla öğrenciyi liste içinde dictionary olarak saklayan öğrenci kayıt sistemi |
 | `student_registration_v2.py` | Menü sistemi, öğrenci ekleme, öğrenci listeleme ve hata kontrolü olan öğrenci kayıt sistemi |
+| `student_registration_v3.py` | Menü sistemi, öğrenci ekleme, listeleme ve isimle öğrenci arama özelliği olan öğrenci kayıt sistemi |
+
 ## Number Guessing Game
 
 Bu mini oyunda bilgisayar 1 ile 20 arasında rastgele bir sayı tutar. Kullanıcının 5 tahmin hakkı vardır. Kullanıcının tahminine göre program daha büyük veya daha küçük bir sayı denemesini söyler.
