@@ -68,7 +68,7 @@ def ogrenci_ekle():
 
 
 def ogrencileri_listele():
-    print("\nKayitli Ogrenciler")
+    print("Kayitli Ogrenciler")
     print("------------------")
 
     if len(ogrenciler) == 0:
@@ -81,7 +81,7 @@ def ogrencileri_listele():
 
 
 def ogrenci_ara():
-    print("\nOgrenci Arama")
+    print("Ogrenci Arama")
 
     aranan_isim = input("Aranacak isim: ")
 
@@ -90,12 +90,12 @@ def ogrenci_ara():
     if ogrenci is None:
         print("Bu isimde ogrenci bulunamadi.")
     else:
-        print("\nOgrenci bulundu:")
+        print("Ogrenci bulundu:")
         ogrenci_yazdir(ogrenci)
 
 
 def ogrenci_sil():
-    print("\nOgrenci Silme")
+    print("Ogrenci Silme")
 
     silinecek_isim = input("Silinecek ogrenci ismi: ")
 
@@ -110,7 +110,7 @@ def ogrenci_sil():
 
 
 def ogrenci_guncelle():
-    print("\nOgrenci Guncelleme")
+    print("Ogrenci Guncelleme")
 
     guncellenecek_isim = input("Guncellenecek ogrenci ismi: ")
 
@@ -120,10 +120,10 @@ def ogrenci_guncelle():
         print("Bu isimde ogrenci bulunamadi.")
         return
 
-    print("\nMevcut bilgiler:")
+    print("Mevcut bilgiler:")
     ogrenci_yazdir(ogrenci)
 
-    print("\nYeni bilgileri gir:")
+    print("Yeni bilgileri gir:")
 
     try:
         yeni_isim = input("Yeni isim: ")
@@ -147,7 +147,7 @@ def ogrenci_guncelle():
 
 
 def istatistikleri_goster():
-    print("\nOgrenci Istatistikleri")
+    print("Ogrenci Istatistikleri")
     print("----------------------")
 
     if len(ogrenciler) == 0:
@@ -178,7 +178,7 @@ def istatistikleri_goster():
 print("Ogrenci Kayit Sistemi v7")
 
 while True:
-    print("\n1 - Ogrenci ekle")
+    print("1 - Ogrenci ekle")
     print("2 - Ogrencileri listele")
     print("3 - Isimle ogrenci ara")
     print("4 - Ogrenci sil")
