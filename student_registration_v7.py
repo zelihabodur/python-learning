@@ -144,7 +144,6 @@ def ogrenci_guncelle():
 
 def istatistikleri_goster():
     print("Ogrenci Istatistikleri")
-    print("----------------------")
 
     if len(ogrenciler) == 0:
         print("Henuz kayitli ogrenci yok.")
