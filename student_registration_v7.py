@@ -41,7 +41,7 @@ def ogrenci_bul(isim):
 
 
 def ogrenci_ekle():
-    print("\nYeni Ogrenci Bilgileri")
+    print("Yeni Ogrenci Bilgileri")
 
     try:
         isim = input("Isim: ")
@@ -69,7 +69,6 @@ def ogrenci_ekle():
 
 def ogrencileri_listele():
     print("Kayitli Ogrenciler")
-    print("------------------")
 
     if len(ogrenciler) == 0:
         print("Henuz kayitli ogrenci yok.")
@@ -77,8 +76,6 @@ def ogrencileri_listele():
 
     for ogrenci in ogrenciler:
         ogrenci_yazdir(ogrenci)
-        print("------------------")
-
 
 def ogrenci_ara():
     print("Ogrenci Arama")
@@ -92,7 +89,6 @@ def ogrenci_ara():
     else:
         print("Ogrenci bulundu:")
         ogrenci_yazdir(ogrenci)
-
 
 def ogrenci_sil():
     print("Ogrenci Silme")
