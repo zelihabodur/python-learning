@@ -66,6 +66,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `student_registration_v7.py` | JSON dosyasına veri kaydeden ve program tekrar açıldığında kayıtları yükleyen öğrenci kayıt sistemi |
 | `student_registration_v8.py` | JSON kayıt sistemiyle çalışan, öğrenci numarası üzerinden ekleme, arama, silme, güncelleme ve istatistik özellikleri olan öğrenci kayıt sistemi |
 | `student_registration_v9.py` | JSON kayıt sistemi, öğrenci numarası, ekleme, listeleme, arama, silme, güncelleme, istatistik ve gelişmiş giriş kontrolü olan final öğrenci kayıt sistemi |
+| `csv_examples.py` | CSV dosyası oluşturma, CSV’ye ürün yazma ve CSV dosyasından ürün okuma örneği |
 
 ## Number Guessing Game
 
