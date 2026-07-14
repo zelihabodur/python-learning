@@ -62,6 +62,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `student_registration_v3.py` | Menü sistemi, öğrenci ekleme, listeleme ve isimle öğrenci arama özelliği olan öğrenci kayıt sistemi |
 | `student_registration_v4.py` | Öğrenci ekleme, listeleme, isimle arama ve öğrenci silme özellikleri olan öğrenci kayıt sistemi |
 | `student_registration_v5.py` | Öğrenci ekleme, listeleme, arama, silme ve öğrenci bilgisi güncelleme özellikleri olan öğrenci kayıt sistemi |
+| `student_registration_v6.py` | Öğrenci ekleme, listeleme, arama, silme, güncelleme ve istatistik gösterme özellikleri olan öğrenci kayıt sistemi |
 
 ## Number Guessing Game
 
