@@ -69,6 +69,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `csv_examples.py` | CSV dosyası oluşturma, CSV’ye ürün yazma ve CSV dosyasından ürün okuma örneği |
 | `product_stock_v1.py` | CSV kayıt sistemiyle çalışan, ürün ekleme ve ürün listeleme özellikleri olan stok sistemi |
 | `product_stock_v2.py` | CSV kayıt sistemiyle çalışan, ürün ekleme, listeleme ve ürün koduyla arama özellikleri olan stok sistemi |
+| `product_stock_v3.py` | CSV kayıt sistemiyle çalışan; ürün ekleme, listeleme, arama, silme, güncelleme ve stok özeti gösterme özellikleri olan stok sistemi |
 
 ## Number Guessing Game
 
