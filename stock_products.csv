@@ -1,2 +1,4 @@
 urun_kodu,urun_adi,kategori,fiyat,stok
 P002,gaming mouse,elektronik,750.0,15
+P001,laptop,elektronik,25000.0,5
+P003,klavye,elektronik,1200.0,3
