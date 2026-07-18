@@ -72,6 +72,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `product_stock_v3.py` | CSV kayıt sistemiyle çalışan; ürün ekleme, listeleme, arama, silme, güncelleme ve stok özeti gösterme özellikleri olan stok sistemi |
 | `product_stock_v4.py` | CSV kayıt sistemiyle çalışan; ürün ekleme, listeleme, arama, silme, güncelleme, stok özeti ve kritik stok listeleme özellikleri olan stok sistemi |
 | `pandas_intro.py` | Pandas DataFrame oluşturma, sütun seçme, filtreleme, yeni sütun ekleme ve temel hesaplama örnekleri |
+| `pandas_csv_analysis.py` | Pandas ile CSV dosyası okuma, stok analizi, kritik stok filtreleme ve temel istatistik hesaplama örneği |
 
 ## Number Guessing Game
 
