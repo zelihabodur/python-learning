@@ -74,6 +74,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `pandas_intro.py` | Pandas DataFrame oluşturma, sütun seçme, filtreleme, yeni sütun ekleme ve temel hesaplama örnekleri |
 | `pandas_csv_analysis.py` | Pandas ile CSV dosyası okuma, stok analizi, kritik stok filtreleme ve temel istatistik hesaplama örneği |
 | `pandas_groupby_analysis.py` | Pandas groupby ile kategori bazlı ürün sayısı, toplam stok, toplam stok değeri, ortalama fiyat ve en yüksek fiyat analizi |
+| `pandas_filter_sort.py` | Pandas ile kategori filtreleme, stok/fiyat koşullu filtreleme, sıralama ve ilk 3 kayıt seçme örnekleri |
 
 ## Number Guessing Game
 
