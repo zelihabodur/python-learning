@@ -76,6 +76,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `pandas_groupby_analysis.py` | Pandas groupby ile kategori bazlı ürün sayısı, toplam stok, toplam stok değeri, ortalama fiyat ve en yüksek fiyat analizi |
 | `pandas_filter_sort.py` | Pandas ile kategori filtreleme, stok/fiyat koşullu filtreleme, sıralama ve ilk 3 kayıt seçme örnekleri |
 | `pandas_export_reports.py` | Pandas analiz sonuçlarını yeni CSV rapor dosyalarına kaydetme örneği |
+| `pandas_missing_values.py` | Pandas ile eksik veri kontrolü, NaN tespiti, fillna kullanımı ve temizlenmiş CSV oluşturma örneği |
 
 ## Number Guessing Game
 
