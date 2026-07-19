@@ -1,0 +1,6 @@
+urun_kodu,urun_adi,kategori,fiyat,stok,stok_degeri
+P001,Laptop,Elektronik,25000.0,5.0,125000.0
+P006,Sandalye,Mobilya,1500.0,8.0,12000.0
+P002,Mouse,Elektronik,500.0,20.0,10000.0
+P005,Kalem,Kirtasiye,10.0,200.0,2000.0
+P004,Defter,Kirtasiye,50.0,0.0,0.0
