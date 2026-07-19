@@ -77,6 +77,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `pandas_filter_sort.py` | Pandas ile kategori filtreleme, stok/fiyat koşullu filtreleme, sıralama ve ilk 3 kayıt seçme örnekleri |
 | `pandas_export_reports.py` | Pandas analiz sonuçlarını yeni CSV rapor dosyalarına kaydetme örneği |
 | `pandas_missing_values.py` | Pandas ile eksik veri kontrolü, NaN tespiti, fillna kullanımı ve temizlenmiş CSV oluşturma örneği |
+| `pandas_data_cleaning_advanced.py` | Pandas ile bozuk veri tiplerini düzeltme, sayıya çevirme, tekrar eden satırları bulma ve temiz veri oluşturma örneği |
 
 ## Number Guessing Game
 
