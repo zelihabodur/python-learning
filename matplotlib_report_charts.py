@@ -21,7 +21,7 @@ plt.ylabel("Toplam Stok Degeri")
 plt.xticks(rotation=30)
 plt.tight_layout()
 plt.savefig("kategori_stok_degeri_rapor.png")
-plt.close()
+plt.show()
 
 print("\nkategori_stok_degeri_rapor.png olusturuldu.")
 
