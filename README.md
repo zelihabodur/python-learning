@@ -78,6 +78,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `pandas_export_reports.py` | Pandas analiz sonuçlarını yeni CSV rapor dosyalarına kaydetme örneği |
 | `pandas_missing_values.py` | Pandas ile eksik veri kontrolü, NaN tespiti, fillna kullanımı ve temizlenmiş CSV oluşturma örneği |
 | `pandas_data_cleaning_advanced.py` | Pandas ile bozuk veri tiplerini düzeltme, sayıya çevirme, tekrar eden satırları bulma ve temiz veri oluşturma örneği |
+| `matplotlib_intro.py` | Pandas analiz sonucunu Matplotlib ile sütun grafik olarak görselleştirme ve PNG dosyası kaydetme örneği |
 
 ## Number Guessing Game
 
