@@ -1,0 +1,13 @@
+satis_id,tarih,sehir,kategori,urun_adi,musteri_tipi,satis_adedi,birim_fiyat
+S001,2026-01-05,Adana,Elektronik,Laptop,Bireysel,2,25000
+S002,2026-01-08,Mersin,Elektronik,Mouse,Bireysel,10,500
+S003,2026-01-15,Adana,Elektronik,Klavye,Kurumsal,6,1200
+S004,2026-02-03,İstanbul,Kirtasiye,Defter,Bireysel,50,50
+S005,2026-02-10,Ankara,Kirtasiye,Kalem,Bireysel,100,10
+S006,2026-02-18,Adana,Mobilya,Sandalye,Kurumsal,5,1500
+S007,2026-03-02,İstanbul,Elektronik,Monitor,Kurumsal,4,6000
+S008,2026-03-12,Mersin,Elektronik,Kulaklik,Bireysel,8,900
+S009,2026-03-20,Ankara,Mobilya,Masa,Kurumsal,3,3500
+S010,2026-04-01,Adana,Kirtasiye,Dosya,Bireysel,40,25
+S011,2026-04-09,İstanbul,Elektronik,Laptop,Kurumsal,1,25000
+S012,2026-04-15,Mersin,Mobilya,Sandalye,Bireysel,2,1500
