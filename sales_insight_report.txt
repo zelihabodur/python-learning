@@ -1,0 +1,32 @@
+
+SATIŞ ANALİZİ METİN RAPORU
+
+GENEL ÖZET
+Toplam ciro: 143900 TL
+Toplam satis adedi: 231
+Ortalama siparis cirosu: 11991.67 TL
+
+KATEGORI ANALIZI
+En yuksek ciro getiren kategori: Elektronik
+Bu kategorinin toplam cirosu: 118400 TL
+
+SEHIR ANALIZI
+En yuksek ciro getiren sehirler: Adana
+Bu sehrin toplam cirosu: 65700 TL
+
+AYLIK ANALIZ
+En yuksek ciro yapilan ay: 2026-01
+Bu ayin toplam cirosu: 62200 TL
+
+URUN ANALIZI
+En yuksek ciro getiren urun: Laptop
+Bu urunun toplam cirosu: 75000 TL
+
+En cok satan urun: Kalem
+Bu urunun toplam satis adedi: 100
+
+GENEL YORUM
+Bu satis verisine gore en guclu performans Elektronik kategorisinde gorulmektedir.
+Ciro acisindan en onemli sehir Adana olarak one cikmaktadir.
+Aylik performansta en yuksek ciro 2026-01 doneminde elde edilmistir.
+Urun bazinda Laptop, toplam ciroya en fazla katkida bulunan urundur.
