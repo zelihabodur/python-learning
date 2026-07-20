@@ -83,6 +83,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `stock_analysis_report.py` | Kirli stok verisini temizleyen, kategori özeti çıkaran, kritik stok ve en değerli ürün raporları üreten, CSV ve grafik çıktıları oluşturan otomatik Pandas analiz projesi |
 | `sales_analysis_project.py` | Satış verilerini analiz eden; kategori, şehir, aylık ciro ve ürün bazlı raporlar ile grafik çıktıları oluşturan Pandas ve Matplotlib projesi |
 | `sales_pivot_analysis.py` | Pandas pivot_table ile kategori-şehir, aylık kategori ve müşteri tipi-kategori bazlı satış analizleri ve grafik raporları |
+| `sales_insight_report.py` | Satış verilerinden toplam ciro, en güçlü kategori, şehir, ay ve ürünleri çıkararak otomatik metin analiz raporu oluşturan Pandas projesi |
 
 ## Number Guessing Game
 
