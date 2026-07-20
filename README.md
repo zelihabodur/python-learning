@@ -85,6 +85,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `sales_pivot_analysis.py` | Pandas pivot_table ile kategori-şehir, aylık kategori ve müşteri tipi-kategori bazlı satış analizleri ve grafik raporları |
 | `sales_insight_report.py` | Satış verilerinden toplam ciro, en güçlü kategori, şehir, ay ve ürünleri çıkararak otomatik metin analiz raporu oluşturan Pandas projesi |
 | `sales_excel_report.py` | Satış analizinden çok sayfalı Excel raporu oluşturan ve Excel dosyasını tekrar okuyarak kontrol eden Pandas projesi |
+| `sql_intro.py` | SQLite ile veritabanı oluşturma, tablo ekleme, veri kaydetme, SELECT, WHERE ve ORDER BY sorgularını öğrenme örneği |
 
 ## Öne Çıkan Mini Proje: Satış Analizi Projesi
 
