@@ -85,6 +85,94 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `sales_pivot_analysis.py` | Pandas pivot_table ile kategori-şehir, aylık kategori ve müşteri tipi-kategori bazlı satış analizleri ve grafik raporları |
 | `sales_insight_report.py` | Satış verilerinden toplam ciro, en güçlü kategori, şehir, ay ve ürünleri çıkararak otomatik metin analiz raporu oluşturan Pandas projesi |
 
+## Öne Çıkan Mini Proje: Satış Analizi Projesi
+
+Bu projede örnek bir satış veri seti Python, Pandas ve Matplotlib kullanılarak analiz edildi.
+
+Amaç; satış verisinden ciro hesaplamak, kategori, şehir, ay ve ürün bazlı raporlar üretmek ve analiz sonuçlarını hem CSV dosyaları hem de grafiklerle sunmaktır.
+
+### Proje Ne Yapıyor?
+
+- `sales_data.csv` dosyasındaki satış verisini okur.
+- Satış adedi ve birim fiyat üzerinden ciro hesaplar.
+- Tarih bilgisinden ay bilgisi çıkarır.
+- Kategori, şehir, ay ve ürün bazlı analizler yapar.
+- Pivot tablolar ile iki boyutlu satış analizleri oluşturur.
+- Analiz sonuçlarını CSV raporları olarak kaydeder.
+- Matplotlib ile grafik raporları üretir.
+- Analiz sonuçlarından otomatik metin raporu oluşturur.
+
+### Kullanılan Araçlar
+
+- Python
+- Pandas
+- Matplotlib
+- CSV
+- Git & GitHub
+
+### Cevaplanan Analiz Soruları
+
+- En yüksek ciro hangi kategoriden geldi?
+- En yüksek ciro hangi şehirde oluştu?
+- En güçlü satış ayı hangisi oldu?
+- En çok ciro getiren ürün hangisi?
+- En çok adet satan ürün hangisi?
+- Aylara göre ciro değişimi nasıl ilerledi?
+- Kategori ve şehir bazında satış performansı nasıl değişti?
+
+### Örnek Veri Setinden Çıkan Sonuçlar
+
+- Toplam ciro: 143.900 TL
+- En yüksek ciro getiren kategori: Elektronik
+- En yüksek ciro getiren şehir: Adana
+- En güçlü satış ayı: 2026-01
+- En yüksek ciro getiren ürün: Laptop
+- En çok adet satan ürün: Kalem
+
+### Ana Dosyalar
+
+| Dosya | Açıklama |
+|---|---|
+| `sales_data.csv` | Satış verilerinin bulunduğu örnek veri seti |
+| `sales_analysis_project.py` | Satış verisini analiz eden ana Python dosyası |
+| `sales_pivot_analysis.py` | Pivot tablo mantığıyla kategori, şehir, ay ve müşteri tipi bazlı analiz yapan dosya |
+| `sales_insight_report.py` | Analiz sonuçlarından otomatik metin raporu oluşturan dosya |
+| `sales_insight_report.txt` | Program tarafından oluşturulan yazılı analiz raporu |
+
+### Oluşturulan Grafikler
+
+#### Kategoriye Göre Toplam Ciro
+
+![Kategoriye Göre Toplam Ciro](sales_category_revenue_chart.png)
+
+#### Şehre Göre Toplam Ciro
+
+![Şehre Göre Toplam Ciro](sales_city_revenue_chart.png)
+
+#### Aylık Ciro Trendi
+
+![Aylık Ciro Trendi](sales_monthly_revenue_chart.png)
+
+#### Ciroya Göre En Değerli Ürünler
+
+![Ciroya Göre En Değerli Ürünler](sales_top_products_revenue_chart.png)
+
+### Nasıl Çalıştırılır?
+
+Projeyi çalıştırmak için terminalde ana analiz dosyasını çalıştırmak yeterlidir:
+
+```bash
+python sales_analysis_project.py
+```
+
+### Bu Projede Uygulanan Beceriler
+
+Bu projede yalnızca veriyi ekrana yazdırmak yerine, ham satış verisinden anlamlı raporlar üretmeye odaklanıldı.
+
+CSV dosyasından veri okuma, tarih verisini analiz için uygun formata çevirme, yeni hesaplama sütunları oluşturma, kategori ve şehir bazlı gruplama yapma, pivot tablo mantığını kullanma, sonuçları CSV dosyalarına aktarma ve grafiklerle görselleştirme adımları uygulandı.
+
+Proje sonunda satış verisi; tablo, grafik ve metin raporu şeklinde yorumlanabilir hale getirildi.
+
 ## Number Guessing Game
 
 Bu mini oyunda bilgisayar 1 ile 20 arasında rastgele bir sayı tutar. Kullanıcının 5 tahmin hakkı vardır. Kullanıcının tahminine göre program daha büyük veya daha küçük bir sayı denemesini söyler.
