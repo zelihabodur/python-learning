@@ -173,7 +173,7 @@ CSV dosyasından veri okuma, tarih verisini analiz için uygun formata çevirme,
 
 Proje sonunda satış verisi; tablo, grafik ve metin raporu şeklinde yorumlanabilir hale getirildi.
 
-## Number Guessing Game
+## SAYI TAHMİN OYUNU
 
 Bu mini oyunda bilgisayar 1 ile 20 arasında rastgele bir sayı tutar. Kullanıcının 5 tahmin hakkı vardır. Kullanıcının tahminine göre program daha büyük veya daha küçük bir sayı denemesini söyler.
 
