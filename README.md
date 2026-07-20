@@ -84,6 +84,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `sales_analysis_project.py` | Satış verilerini analiz eden; kategori, şehir, aylık ciro ve ürün bazlı raporlar ile grafik çıktıları oluşturan Pandas ve Matplotlib projesi |
 | `sales_pivot_analysis.py` | Pandas pivot_table ile kategori-şehir, aylık kategori ve müşteri tipi-kategori bazlı satış analizleri ve grafik raporları |
 | `sales_insight_report.py` | Satış verilerinden toplam ciro, en güçlü kategori, şehir, ay ve ürünleri çıkararak otomatik metin analiz raporu oluşturan Pandas projesi |
+| `sales_excel_report.py` | Satış analizinden çok sayfalı Excel raporu oluşturan ve Excel dosyasını tekrar okuyarak kontrol eden Pandas projesi |
 
 ## Öne Çıkan Mini Proje: Satış Analizi Projesi
 
