@@ -87,6 +87,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `sales_excel_report.py` | Satış analizinden çok sayfalı Excel raporu oluşturan ve Excel dosyasını tekrar okuyarak kontrol eden Pandas projesi |
 | `sql_intro.py` | SQLite ile veritabanı oluşturma, tablo ekleme, veri kaydetme, SELECT, WHERE ve ORDER BY sorgularını öğrenme örneği |
 | `sql_groupby_analysis.py` | SQLite ile COUNT, SUM, AVG, MAX, MIN, GROUP BY, AS ve HAVING kullanarak satış verisi üzerinde özet analiz yapan SQL örneği |
+| `sql_join_analysis.py` | SQLite ile INNER JOIN, LEFT JOIN, ortak id üzerinden tablo birleştirme ve siparişi olmayan müşterileri bulma örneği |
 
 ## Öne Çıkan Mini Proje: Satış Analizi Projesi
 
