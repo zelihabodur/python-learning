@@ -89,6 +89,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `sql_groupby_analysis.py` | SQLite ile COUNT, SUM, AVG, MAX, MIN, GROUP BY, AS ve HAVING kullanarak satış verisi üzerinde özet analiz yapan SQL örneği |
 | `sql_join_analysis.py` | SQLite ile INNER JOIN, LEFT JOIN, ortak id üzerinden tablo birleştirme ve siparişi olmayan müşterileri bulma örneği |
 | `sql_case_when_analysis.py` | SQLite ile CASE WHEN kullanarak fiyat grubu, ciro grubu ve müşteri segmenti sınıflandırması yapan SQL örneği |
+| `sql_filtering_analysis.py` | SQLite ile DISTINCT, BETWEEN, IN, LIKE, AND, OR ve LIMIT kullanarak ürün verisi üzerinde filtreleme yapan SQL örneği |
 
 ## Öne Çıkan Mini Proje: Satış Analizi Projesi
 
