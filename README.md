@@ -94,6 +94,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `sql_window_functions_analysis.py` | SQLite ile ROW_NUMBER, RANK, PARTITION BY, SUM OVER ve kümülatif ciro hesaplamalarını yapan SQL window functions örneği |
 | `sales_inventory_customer_analytics/analyze_sales_data.py` | Satış, stok ve müşteri verilerini birleştirerek şehir, kategori, müşteri tipi, aylık ciro, kritik stok ve en iyi ürün raporları oluşturan büyük veri analizi projesi |
 | `sales_inventory_customer_analytics/create_project_charts.py` | Türkçe satış raporlarından şehir ciro, kategori ciro, aylık trend, kümülatif ciro, müşteri tipi, en iyi ürünler ve kritik stok grafiklerini oluşturan görselleştirme dosyası |
+| `sales_inventory_customer_analytics/create_management_summary.py` | Satış, stok ve müşteri raporlarından yönetici özeti, KPI tablosu, yorumlar ve karar önerileri oluşturan proje dosyası |
 
 ## Öne Çıkan Mini Proje: Satış Analizi Projesi
 
