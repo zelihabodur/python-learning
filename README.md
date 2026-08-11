@@ -95,6 +95,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `sales_inventory_customer_analytics/analyze_sales_data.py` | Satış, stok ve müşteri verilerini birleştirerek şehir, kategori, müşteri tipi, aylık ciro, kritik stok ve en iyi ürün raporları oluşturan büyük veri analizi projesi |
 | `sales_inventory_customer_analytics/create_project_charts.py` | Türkçe satış raporlarından şehir ciro, kategori ciro, aylık trend, kümülatif ciro, müşteri tipi, en iyi ürünler ve kritik stok grafiklerini oluşturan görselleştirme dosyası |
 | `sales_inventory_customer_analytics/create_management_summary.py` | Satış, stok ve müşteri raporlarından yönetici özeti, KPI tablosu, yorumlar ve karar önerileri oluşturan proje dosyası |
+| `sales_inventory_customer_analytics/create_excel_report.py` | Satış, stok, müşteri, KPI ve yönetici özeti raporlarını tek Excel dosyasında ayrı sayfalar halinde oluşturan proje dosyası |
 
 ## Öne Çıkan Mini Proje: Satış Analizi Projesi
 
