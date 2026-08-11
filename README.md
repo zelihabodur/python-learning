@@ -97,6 +97,161 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `sales_inventory_customer_analytics/create_management_summary.py` | Satış, stok ve müşteri raporlarından yönetici özeti, KPI tablosu, yorumlar ve karar önerileri oluşturan proje dosyası |
 | `sales_inventory_customer_analytics/create_excel_report.py` | Satış, stok, müşteri, KPI ve yönetici özeti raporlarını tek Excel dosyasında ayrı sayfalar halinde oluşturan proje dosyası |
 
+## Öne Çıkan Büyük Proje: Satış, Stok ve Müşteri Analizi Karar Destek Sistemi
+
+Bu projede örnek bir şirketin satış, stok, ürün ve müşteri verileri Python, Pandas, SQL mantığı, Matplotlib ve Excel raporlama kullanılarak analiz edildi.
+
+Amaç; farklı kaynaklardan gelen ham verileri birleştirerek şehir, kategori, müşteri tipi, ürün performansı, aylık satış trendi ve kritik stok riskleri hakkında yönetime karar desteği sağlayan bir analiz sistemi oluşturmaktır.
+
+English project name: **Sales, Inventory and Customer Analytics Dashboard**
+
+---
+
+### Proje Ne Yapıyor?
+
+- Müşteri, ürün, sipariş, sipariş ürünü ve stok verilerini oluşturur.
+- 5 ayrı CSV dosyasını okuyarak tek ana satış tablosuna dönüştürür.
+- Satış cirosu, toplam maliyet, kâr ve kâr marjı hesaplar.
+- Şehir, kategori, müşteri tipi, ay ve ürün bazlı raporlar üretir.
+- Kritik stoktaki ürünleri belirler.
+- Türkçe CSV raporları oluşturur.
+- Grafik dosyaları üretir.
+- Yönetici özeti ve KPI raporu hazırlar.
+- Tüm raporları tek Excel dosyasında ayrı sayfalar halinde toplar.
+
+---
+
+### Kullanılan Araçlar
+
+- Python
+- Pandas
+- Matplotlib
+- SQLite / SQL mantığı
+- Excel raporlama
+- openpyxl
+- CSV
+- Git & GitHub
+
+---
+
+### Veri Yapısı
+
+Projede gerçek hayata yakın olacak şekilde birden fazla tablo kullanıldı.
+
+| Dosya | Açıklama |
+|---|---|
+| `customers.csv` | Müşteri bilgileri |
+| `products.csv` | Ürün, kategori, maliyet ve satış fiyatı bilgileri |
+| `orders.csv` | Sipariş tarihi, müşteri ve satış kanalı bilgileri |
+| `order_items.csv` | Siparişlerde yer alan ürün ve adet bilgileri |
+| `inventory.csv` | Mevcut stok ve yeniden sipariş seviyesi bilgileri |
+
+Bu tablolar ortak ID alanları üzerinden birleştirildi:
+
+| Birleşim | Ortak Alan |
+|---|---|
+| `order_items` + `orders` | `order_id` |
+| `orders` + `customers` | `customer_id` |
+| `order_items` + `products` | `product_id` |
+| `products` + `inventory` | `product_id` |
+
+---
+
+### Üretilen Raporlar
+
+| Rapor | Açıklama |
+|---|---|
+| `ana_satis_verisi.csv` | Tüm tabloların birleşmiş ana satış veri seti |
+| `sehir_ciro_raporu.csv` | Şehirlere göre ciro, kâr, satış adedi ve sipariş sayısı |
+| `kategori_performans_raporu.csv` | Kategorilere göre ciro, kâr, satış adedi ve kâr marjı |
+| `musteri_tipi_raporu.csv` | Bireysel ve kurumsal müşteri performansı |
+| `aylik_ciro_raporu.csv` | Aylık ciro, kâr, satış adedi ve kümülatif ciro |
+| `kritik_stok_raporu.csv` | Kritik stok seviyesindeki ürünler |
+| `en_iyi_urunler_raporu.csv` | Ciroya göre en iyi ürünler |
+| `yonetici_ozeti.txt` | Yönetici özeti, yorumlar ve karar önerileri |
+| `yonetici_kpi_ozeti.csv` | Temel KPI değerleri |
+| `satis_stok_musteri_analiz_raporu.xlsx` | Tüm raporları içeren tek Excel dosyası |
+
+---
+
+### Oluşturulan Grafikler
+
+#### Şehirlere Göre Toplam Ciro
+![Şehirlere Göre Toplam Ciro](sales_inventory_customer_analytics/charts/sehir_ciro_grafigi.png)
+
+#### Kategorilere Göre Toplam Ciro
+![Kategorilere Göre Toplam Ciro](sales_inventory_customer_analytics/charts/kategori_ciro_grafigi.png)
+
+#### Aylara Göre Ciro Trendi
+![Aylara Göre Ciro Trendi](sales_inventory_customer_analytics/charts/aylik_ciro_trendi.png)
+
+#### Aylara Göre Kümülatif Ciro
+![Aylara Göre Kümülatif Ciro](sales_inventory_customer_analytics/charts/kumulatif_ciro_grafigi.png)
+
+#### Müşteri Tipine Göre Toplam Ciro
+![Müşteri Tipine Göre Toplam Ciro](sales_inventory_customer_analytics/charts/musteri_tipi_ciro_grafigi.png)
+
+#### Ciroya Göre En İyi 5 Ürün
+![Ciroya Göre En İyi 5 Ürün](sales_inventory_customer_analytics/charts/en_iyi_5_urun_grafigi.png)
+
+#### Kritik Stoktaki Ürünler
+![Kritik Stoktaki Ürünler](sales_inventory_customer_analytics/charts/kritik_stok_grafigi.png)
+
+---
+
+### Öne Çıkan Bulgular
+
+- En yüksek ciro getiren şehir: **İstanbul**
+- En yüksek ciro getiren kategori: **Elektronik**
+- Kritik stokta bulunan ürünler tespit edildi.
+- Aylık ciro trendi ve kümülatif ciro hesaplandı.
+- Bireysel ve kurumsal müşteri tipleri gelir performansına göre karşılaştırıldı.
+- En yüksek ciro getiren ürünler ve ürün kategorileri belirlendi.
+
+---
+
+### Yönetim İçin Öneriler
+
+- En yüksek ciro getiren şehirlerdeki satış stratejileri detaylı incelenmelidir.
+- Elektronik kategorisi için stok ve kampanya planlaması öncelikli yapılmalıdır.
+- Kritik stoktaki ürünler için yeniden sipariş süreci hızlandırılmalıdır.
+- Yüksek ciro getiren ürünlerin stok durumu düzenli takip edilmelidir.
+- Aylık satış trendleri izlenerek düşük performanslı dönemler için kampanya planlanmalıdır.
+
+---
+
+### Ana Proje Dosyaları
+
+| Dosya | Açıklama |
+|---|---|
+| `generate_project_data.py` | Büyük proje için örnek müşteri, ürün, sipariş ve stok verilerini oluşturur |
+| `analyze_sales_data.py` | CSV verilerini okur, tabloları birleştirir, hesaplamalar yapar ve rapor üretir |
+| `create_project_charts.py` | Türkçe raporlardan grafikler oluşturur |
+| `create_management_summary.py` | Yönetici özeti, KPI tablosu ve karar önerileri oluşturur |
+| `create_excel_report.py` | Tüm raporları tek Excel dosyasında toplar |
+
+---
+
+### Çalıştırma Sırası
+
+Projeyi baştan üretmek için dosyalar şu sırayla çalıştırılmalıdır:
+
+```bash
+python sales_inventory_customer_analytics/generate_project_data.py
+python sales_inventory_customer_analytics/analyze_sales_data.py
+python sales_inventory_customer_analytics/create_project_charts.py
+python sales_inventory_customer_analytics/create_management_summary.py
+python sales_inventory_customer_analytics/create_excel_report.py
+
+### Bu Projede Uygulanan Beceriler
+
+Bu projede yalnızca Python kodu yazmak değil, gerçek bir veri analizi sürecinin baştan sona nasıl yürütüleceği uygulandı.
+
+Ham veri oluşturma, çoklu tablo yapısı kurma, ortak ID alanları üzerinden veri birleştirme, satış cirosu hesaplama, toplam maliyet ve kâr analizi, kâr marjı hesaplama, stok risk analizi, şehir ve kategori bazlı performans analizi, müşteri tipi karşılaştırması, aylık trend analizi, kümülatif ciro hesabı, grafik üretimi, yönetici özeti oluşturma ve Excel raporlama adımları tamamlandı.
+
+Projede ayrıca veri çıktıları sadece tablo olarak bırakılmadı; grafikler, KPI özeti, yönetici yorumu ve karar önerileri ile desteklendi. Bu sayede proje, teknik bir Python çalışmasından ziyade iş kararlarına destek veren bir veri analizi projesi haline getirildi.
+
+
 ## Öne Çıkan Mini Proje: Satış Analizi Projesi
 
 Bu projede örnek bir satış veri seti Python, Pandas ve Matplotlib kullanılarak analiz edildi.
