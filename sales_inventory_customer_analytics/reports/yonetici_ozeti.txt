@@ -1,0 +1,82 @@
+
+SATIŞ, STOK VE MÜŞTERİ ANALİZİ YÖNETİCİ ÖZETİ
+
+1. GENEL PERFORMANS
+
+Toplam ciro: 604.200 TL
+Toplam kâr: 189.220 TL
+Toplam satış adedi: 601
+Toplam sipariş sayısı: 20
+Genel kâr marjı: %31.32
+
+Bu sonuçlara göre işletme, analiz döneminde toplam 604.200 TL ciro ve 189.220 TL kâr elde etmiştir.
+
+2. ŞEHİR BAZLI PERFORMANS
+
+En yüksek ciro getiren şehir: İstanbul
+Bu şehrin toplam cirosu: 252.500 TL
+Bu şehrin toplam kârı: 76.500 TL
+
+Yorum:
+İstanbul, satış performansı açısından en güçlü şehir olarak öne çıkmaktadır. Bu şehirdeki satış kanalları ve müşteri davranışları daha detaylı incelenerek diğer şehirler için örnek strateji geliştirilebilir.
+
+3. KATEGORİ BAZLI PERFORMANS
+
+En yüksek ciro getiren kategori: Elektronik
+Kategori toplam cirosu: 436.000 TL
+Kategori toplam kârı: 129.200 TL
+Ortalama kâr marjı: %37.49
+
+Yorum:
+Elektronik kategorisi ciro açısından en güçlü ürün grubudur. Bu kategoride stok sürekliliği, kampanya planlaması ve ürün çeşitliliği öncelikli olarak takip edilmelidir.
+
+4. MÜŞTERİ TİPİ ANALİZİ
+
+En yüksek ciro getiren müşteri tipi: Kurumsal
+Bu müşteri tipinin toplam cirosu: 548.000 TL
+Bu müşteri tipinin toplam kârı: 166.600 TL
+
+Yorum:
+Kurumsal müşteri grubu işletme gelirinde daha güçlü rol oynamaktadır. Satış stratejileri bu müşteri tipine göre ayrı kampanya, fiyatlandırma ve sadakat çalışmalarıyla desteklenebilir.
+
+5. AYLIK SATIŞ TRENDİ
+
+En yüksek ciro elde edilen ay: 2026-05
+Bu ayın cirosu: 184.000 TL
+Bu ayın kârı: 57.800 TL
+Dönem sonu kümülatif ciro: 604.200 TL
+
+Yorum:
+2026-05 dönemi satış performansının en güçlü olduğu ay olmuştur. Bu ayda yapılan satışların hangi şehir, kategori ve müşteri tipi üzerinden geldiği ayrıca incelenmelidir.
+
+6. ÜRÜN PERFORMANSI
+
+En yüksek ciro getiren ürün: Telefon
+Ürün kategorisi: Elektronik
+Ürün toplam cirosu: 162.000 TL
+Ürün toplam kârı: 45.000 TL
+Ürün toplam satış adedi: 9
+
+Yorum:
+Telefon, ürün bazlı performansta en güçlü kalemdir. Bu ürünün stok seviyesi, tedarik süresi ve satış kanalı performansı yakından takip edilmelidir.
+
+7. STOK RİSKİ
+
+Kritik stokta olan ürün sayısı: 6
+Kritik stoktaki ürünler: Koltuk, Masa, Telefon, Monitör, Klavye, Dosya
+
+Yorum:
+Kritik stoktaki ürünler satış kaybı riski oluşturabilir. Özellikle yüksek ciro getiren veya stratejik öneme sahip ürünlerde stok yenileme öncelikli aksiyon olmalıdır.
+
+8. YÖNETİM İÇİN ÖNERİLER
+
+1. En yüksek ciro getiren şehir olan İstanbul için satış başarısının nedenleri detaylı incelenmelidir.
+2. Elektronik kategorisi için stok ve kampanya planlaması öncelikli yapılmalıdır.
+3. Kurumsal müşteri grubuna özel satış stratejileri geliştirilmelidir.
+4. Kritik stoktaki ürünler için yeniden sipariş süreci hızlandırılmalıdır.
+5. Aylık ciro trendi düzenli takip edilerek düşük performanslı aylar için kampanya planlanmalıdır.
+6. En yüksek ciro getiren ürünlerin stok durumu ve kâr marjı düzenli izlenmelidir.
+
+SONUÇ
+
+Bu proje, satış, stok ve müşteri verilerini birleştirerek yönetime karar desteği sağlayan bir analiz yapısı oluşturmuştur. Elde edilen raporlar; şehir performansı, kategori performansı, müşteri tipi, aylık trend, ürün performansı ve kritik stok risklerini birlikte değerlendirmeyi mümkün hale getirmiştir.
