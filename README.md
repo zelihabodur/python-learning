@@ -92,6 +92,7 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 | `sql_filtering_analysis.py` | SQLite ile DISTINCT, BETWEEN, IN, LIKE, AND, OR ve LIMIT kullanarak ürün verisi üzerinde filtreleme yapan SQL örneği |
 | `sql_subquery_analysis.py` | SQLite ile subquery kullanarak ortalamanın üstündeki ürünleri, yüksek cirolu satışları ve en iyi kategori/şehir analizlerini yapan SQL örneği |
 | `sql_window_functions_analysis.py` | SQLite ile ROW_NUMBER, RANK, PARTITION BY, SUM OVER ve kümülatif ciro hesaplamalarını yapan SQL window functions örneği |
+| `sales_inventory_customer_analytics/analyze_sales_data.py` | Satış, stok ve müşteri verilerini birleştirerek şehir, kategori, müşteri tipi, aylık ciro, kritik stok ve en iyi ürün raporları oluşturan büyük veri analizi projesi |
 
 ## Öne Çıkan Mini Proje: Satış Analizi Projesi
 
