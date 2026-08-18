@@ -101,6 +101,8 @@ Bu repository içinde şu mini uygulamalar bulunmaktadır:
 
 Bu projede örnek bir şirketin satış, stok, ürün ve müşteri verileri Python, Pandas, SQL mantığı, Matplotlib ve Excel raporlama kullanılarak analiz edildi.
 
+Proje sonunda Python ile hazırlanan analiz çıktıları Power BI Desktop'a aktarılarak 3 sayfalı karar destek dashboardu oluşturuldu.
+
 Amaç; farklı kaynaklardan gelen ham verileri birleştirerek şehir, kategori, müşteri tipi, ürün performansı, aylık satış trendi ve kritik stok riskleri hakkında yönetime karar desteği sağlayan bir analiz sistemi oluşturmaktır.
 
 English project name: **Sales, Inventory and Customer Analytics Dashboard**
@@ -131,6 +133,7 @@ English project name: **Sales, Inventory and Customer Analytics Dashboard**
 - openpyxl
 - CSV
 - Git & GitHub
+- Power BI Desktop
 
 ---
 
