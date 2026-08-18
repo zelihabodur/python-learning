@@ -243,6 +243,8 @@ python sales_inventory_customer_analytics/create_project_charts.py
 python sales_inventory_customer_analytics/create_management_summary.py
 python sales_inventory_customer_analytics/create_excel_report.py
 
+```
+
 ### Bu Projede Uygulanan Beceriler
 
 Bu projede yalnızca Python kodu yazmak değil, gerçek bir veri analizi sürecinin baştan sona nasıl yürütüleceği uygulandı.
