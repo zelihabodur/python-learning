@@ -187,7 +187,7 @@ Ham veri oluşturma, çoklu tablo yapısı kurma, ortak ID alanları üzerinden 
 
 Projede ayrıca veri çıktıları sadece tablo olarak bırakılmadı; grafikler, KPI özeti, yönetici yorumu ve karar önerileri ile desteklendi. Bu sayede proje, teknik bir Python çalışmasından ziyade iş kararlarına destek veren bir veri analizi projesi haline getirildi.
 
-## Öğrendiğim Konular
+## Öğrenme Yolculuğu ve Öğrendiğim Konular
 
 * Python kurulumu
 * VS Code kullanımı
@@ -368,7 +368,7 @@ CSV dosyasından veri okuma, tarih verisini analiz için uygun formata çevirme,
 
 Proje sonunda satış verisi; tablo, grafik ve metin raporu şeklinde yorumlanabilir hale getirildi.
 
-## SAYI TAHMİN OYUNU
+## Sayı Tahmin Oyunu
 
 Bu mini oyunda bilgisayar 1 ile 20 arasında rastgele bir sayı tutar. Kullanıcının 5 tahmin hakkı vardır. Kullanıcının tahminine göre program daha büyük veya daha küçük bir sayı denemesini söyler.
 
@@ -395,26 +395,29 @@ Bu mini oyunda bilgisayar 1 ile 20 arasında rastgele bir sayı tutar. Kullanıc
 * Kullanıcının kaç denemede bildiğini gösterir.
 * Hatalı girişler `try-except` ile kontrol edilir.
 
-## Hedefim
+## Gelişim Planı
 
-Bu repository, Python öğrenme sürecimin ilk aşamasıdır. İlerleyen süreçte daha gelişmiş projeler eklemeyi hedefliyorum:
+Bu repository, veri analisti stajı ve başlangıç seviyesi veri analizi rolleri için teknik becerilerimi geliştirme sürecimi göstermektedir.
 
-* Taş Kağıt Makas Oyunu
-* Adam Asmaca
-* Quiz Uygulaması
-* ATM Sistemi
-* Öğrenci Yönetim Sistemi
-* Stok Takip Sistemi
-* Veri Analizi Projeleri
-* SQL Projeleri
-* Power BI Dashboard Projeleri
+Önümüzdeki süreçte portfolyomu aşağıdaki alanlarda geliştirmeyi hedefliyorum:
 
-## Kullanılan Teknolojiler
+- Daha kapsamlı SQL analiz projeleri
+- Power BI dashboard projeleri
+- Gerçek veri setleriyle uçtan uca analiz çalışmaları
+- Excel ve Power Query raporlama çalışmaları
+- Veri analizi mülakat hazırlıkları
 
-* Python
-* VS Code
-* Git
-* GitHub
+## Kullanılan Teknolojiler ve Araçlar
+
+- Python
+- Pandas
+- Matplotlib
+- SQLite / SQL mantığı
+- Excel / openpyxl
+- Power BI Desktop
+- CSV
+- VS Code
+- Git & GitHub
 
 ## Not
 
