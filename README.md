@@ -223,6 +223,28 @@ Bu tablolar ortak ID alanları üzerinden birleştirildi:
 
 ---
 
+### Power BI Dashboard
+
+Bu projede Python ve Pandas ile hazırlanan ana satış verisi Power BI Desktop'a aktarılarak 3 sayfalı etkileşimli dashboard oluşturuldu.
+
+Dashboard görselleri:
+
+![Genel Bakış Dashboard](sales_inventory_customer_analytics/dashboard/genel_bakis_dashboard.png)
+
+![Ürün ve Stok Analizi Dashboard](sales_inventory_customer_analytics/dashboard/urun_stok_dashboard.png)
+
+![Müşteri Analizi Dashboard](sales_inventory_customer_analytics/dashboard/musteri_analizi_dashboard.png)
+
+Dashboard sayfaları:
+
+- Genel Bakış
+- Ürün ve Stok Analizi
+- Müşteri Analizi
+
+Power BI dashboard dosyası:
+
+[`sales_inventory_customer_analytics_dashboard.pbix`](sales_inventory_customer_analytics/dashboard/sales_inventory_customer_analytics_dashboard.pbix)
+
 ### Ana Proje Dosyaları
 
 | Dosya | Açıklama |
@@ -301,20 +323,6 @@ Amaç; satış verisinden ciro hesaplamak, kategori, şehir, ay ve ürün bazlı
 - En yüksek ciro getiren ürün: Laptop
 - En çok adet satan ürün: Kalem
 
-### Power BI Dashboard
-
-Bu projede Python ve Pandas ile hazırlanan ana satış verisi Power BI Desktop'a aktarılarak 3 sayfalı etkileşimli dashboard oluşturuldu.
-
-Dashboard sayfaları:
-
-- Genel Bakış
-- Ürün ve Stok Analizi
-- Müşteri Analizi
-
-Power BI dashboard dosyası:
-
-[`sales_inventory_customer_analytics_dashboard.pbix`]
-(sales_inventory_customer_analytics/dashboard/sales_inventory_customer_analytics_dashboard.pbix)
 
 ### Ana Dosyalar
 
